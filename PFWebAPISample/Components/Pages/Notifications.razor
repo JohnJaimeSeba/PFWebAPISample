@@ -146,21 +146,22 @@
         cursor: pointer;
     }
 
-    .refresh-button {
-        background: white; 
-        padding: 15px 40px;
-        border: none;
-        border-radius: 15px;
-        font-size: 1.2rem;
-        cursor: pointer;
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-        margin-top: 30px;
-        transition: background-color 0.3s, transform 0.3s;
+    button {
+        font-size: 17px;
+        padding: 0.5em 2em;
+        border: transparent;
+        box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+        background: #00ccff;
+        color: white;
+        border-radius: 4px;
     }
 
-        .refresh-button:hover {
-            background: #003366; 
-            color: white; 
-            transform: translateY(-3px);
+        button:hover {
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+        }
+
+        button:active {
+            transform: translate(0em, 0.2em);
         }
 </style>
